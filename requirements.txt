@@ -1,0 +1,9 @@
+# Runtime Dependencies
+# SundaScript Compiler tidak memerlukan dependensi eksternal untuk kompilasi.
+# Semua modul inti menggunakan pustaka standar Python 3.
+
+# Development & Testing
+pytest>=7.0.0
+
+# Packaging (untuk membuat standalone .exe)
+pyinstaller>=6.0.0

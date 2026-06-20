@@ -1,0 +1,37 @@
+# ===========================================
+# SundaScript - Ujian Akhir (Komprehensif)
+# Nunjukkeun sadaya fitur kompilator
+# ===========================================
+
+# Fase 1: Fungsi sederhana
+jieun tambah(a, b) {
+    balikeun a + b
+}
+
+# Fase 2: Main program
+jieun main() {
+    nyarita("=== Ujian Akhir SundaScript ===")
+    
+    # Tes While Loop
+    angka_awal = 1
+    salila (angka_awal <= 3) {
+        nyarita("Iterasi ka-")
+        nyarita(angka_awal)
+        angka_awal = angka_awal + 1
+    }
+
+    # Tes Constant Folding (Optimasi)
+    tes_optimasi = 10 * 5 + 2
+    lamun (tes_optimasi > 50) {
+        nyarita("Optimasi Matematika Sukses!")
+    } sanesna {
+        nyarita("Gagal Optimasi")
+    }
+
+    # Tes Pemanggilan Fungsi
+    hasil = tambah(10, 20)
+    nyarita("Hasil Tambah:")
+    nyarita(hasil)
+}
+
+main()

@@ -1,0 +1,37 @@
+# Contoh perulangan (loop) dina SundaScript
+
+# For loop - Kanggo
+nyarita("=== Kanggo Loop ===")
+kanggo (i dina rentang(5)) {
+    nyarita(i)
+}
+
+# While loop - Salila
+nyarita("=== Salila Loop ===")
+counter = 0
+salila (counter < 3) {
+    nyarita("Counter:")
+    nyarita(counter)
+    counter = counter + 1
+}
+
+# Loop jeung eureun (break)
+nyarita("=== Loop jeung Eureun ===")
+x = 0
+salila (x < 10) {
+    lamun (x == 5) {
+        nyarita("Eureun di 5!")
+        eureun
+    }
+    nyarita(x)
+    x = x + 1
+}
+
+# Loop jeung terus_weh (continue)
+nyarita("=== Loop jeung Terus Weh ===")
+kanggo (j dina rentang(5)) {
+    lamun (j == 2) {
+        terus_weh
+    }
+    nyarita(j)
+}

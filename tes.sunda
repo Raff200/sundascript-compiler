@@ -1,0 +1,18 @@
+# Tes dasar SundaScript 
+# Fungsi Faktorial (Rekursif)
+
+jieun faktorial(n) {
+    lamun (n <= 1) {
+        balikeun 1
+    }
+    balikeun n * faktorial(n - 1) 
+}
+
+nyarita("Mimiti uji coba SundaScript...")
+hasil = faktorial(5)
+nyarita("Faktorial 5 nyaeta:")
+nyarita(hasil)
+
+kanggo (i dina rentang(3)) {
+    nyarita(i)
+}

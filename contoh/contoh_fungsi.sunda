@@ -1,0 +1,31 @@
+# Contoh fungsi dina SundaScript
+
+# Fungsi sederhana
+jieun salam(ngaran) {
+    nyarita("Sampurasun, ")
+    nyarita(ngaran)
+}
+
+# Fungsi jeung return value
+jieun kuadrat(n) {
+    balikeun n * n
+}
+
+# Fungsi rekursif (Fibonacci)
+jieun fibonacci(n) {
+    lamun (n <= 0) {
+        balikeun 0
+    }
+    lamun (n == 1) {
+        balikeun 1
+    }
+    balikeun fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+# Panggil fungsi-fungsi
+salam("Rafly")
+nyarita("Kuadrat 7:")
+nyarita(kuadrat(7))
+
+nyarita("Fibonacci ka-8:")
+nyarita(fibonacci(8))

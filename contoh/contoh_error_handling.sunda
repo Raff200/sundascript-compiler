@@ -1,0 +1,12 @@
+# Contoh error handling dina SundaScript
+
+cobaan {
+    x = 10
+    hasil = x + 5
+    nyarita("Hasil:")
+    nyarita(hasil)
+} kacuali Error minangka e {
+    nyarita("Aya kasalahan euy!")
+} ahirna {
+    nyarita("Program geus rengse.")
+}

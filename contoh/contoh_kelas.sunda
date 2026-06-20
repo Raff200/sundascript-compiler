@@ -1,0 +1,27 @@
+# Contoh kelas (OOP) dina SundaScript
+
+kelas Jalma {
+    jieun __init__(urang, ngaran, umur) {
+        urang.ngaran = ngaran
+        urang.umur = umur
+    }
+
+    jieun salam(urang) {
+        nyarita("Sampurasun! Nami abdi ")
+        nyarita(urang.ngaran)
+    }
+}
+
+kelas Mahasiswa(Jalma) {
+    jieun __init__(urang, ngaran, umur, jurusan) {
+        kolot().__init__(ngaran, umur)
+        urang.jurusan = jurusan
+    }
+
+    jieun info(urang) {
+        nyarita("Mahasiswa:")
+        nyarita(urang.ngaran)
+        nyarita("Jurusan:")
+        nyarita(urang.jurusan)
+    }
+}

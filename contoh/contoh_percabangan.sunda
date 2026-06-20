@@ -1,0 +1,23 @@
+# Contoh percabangan (if/elif/else) dina SundaScript
+
+umur = 20
+
+lamun (umur >= 60) {
+    nyarita("Kolot pisan euy!")
+} lamun_deui (umur >= 17) {
+    nyarita("Geus dewasa maneh mah")
+} sanesna {
+    nyarita("Budak keneh sia mah")
+}
+
+# Tes nested if
+nilai = 85
+lamun (nilai >= 90) {
+    nyarita("A - Alus pisan!")
+} lamun_deui (nilai >= 80) {
+    nyarita("B - Alus!")
+} lamun_deui (nilai >= 70) {
+    nyarita("C - Lumayan lah")
+} sanesna {
+    nyarita("D - Kudu diajar deui!")
+}
